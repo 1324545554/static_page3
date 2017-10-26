@@ -1,0 +1,84 @@
+.pagetop{
+	height: 351px;
+}
+
+/*二级页面banner区域*/
+.s_banner{
+	position: relative;
+	width: 100%;
+	height: 351px;
+}
+.s_banner img{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 1920px;
+	margin-left: -960px;
+}
+.s_banner h2{
+	position: absolute;
+	left: 0;
+	top: 160px;
+	width: 100%;
+	text-align: center;
+}
+.s_banner h2 .chi{
+	display: block;
+	height: 50px;
+	font-size: 34px;
+	font-weight: bold;
+	line-height: 50px;
+	color: #ffffff;
+}
+.s_banner h2 .eng{
+	display: block;
+	height: 20px;
+	font-size: 18px;
+	line-height: 20px;
+	color: #f9e3c8;
+}
+
+/*二级页面小导航*/
+.con_c .s_nav{
+	position: absolute;
+	left: center;
+	top: 299px;
+
+	width: 980px;
+	height: 52px;
+	padding-left: 20px;
+	background: #fff;
+	color: #878787;
+	line-height: 52px;
+}
+.con_c .s_nav p{
+	float: left;	
+}
+.con_c .s_nav a{
+	color: #878787;
+}
+.con_c .s_nav p .orange{
+	color: #bf7316;
+}
+.con_c .s_nav ul{
+	float: right;
+	height: 52px;	
+}
+.con_c .s_nav ul li{
+	float: left;
+	width: 104px;
+	height: 52px;
+	border-left: 1px solid #e7e7e7;
+	text-align: center;
+}
+.con_c .s_nav ul li a{
+	display: block;
+	width: 104px;
+	height: 52px;
+}
+.con_c .s_nav ul li a:hover{
+	padding-bottom: 12px;
+	background: url(../images/hoverbg.png) no-repeat;
+	color: #fff;
+}
+

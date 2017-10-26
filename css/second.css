@@ -1,0 +1,41 @@
+/*西柚媒体展示区域*/
+.con_c .show{
+	width: 928px;
+	height: 445px;
+	padding: 51px 0 0 70px;
+	border: 1px solid #e0e0e0;
+	margin-bottom: 6px;
+	background: url(../images/cont_fruit_bg.png) no-repeat center top;
+}
+.con_c .show h3{
+	height: 91px;
+	font-size: 29px;
+	font-weight: bold;
+	line-height: 91px;
+}
+.con_c .show h3 a{
+	color: #5c5c5c;
+}
+.con_c .show p{
+	margin-bottom: 27px;
+	font-size: 14px;
+	line-height: 25px;
+	color: #a1a1a1;
+}
+.con_c .show .show_nav{
+	height: 75px;
+}
+.con_c .show .show_nav a{
+	float: left;
+	width: 75px;
+	height: 75px;
+	margin-right: 2px;
+	background: #ededed;
+	line-height: 75px;
+	text-align: center;
+	color: #5c5c5c;
+}
+.con_c .show .show_nav a:hover{
+	background-color: #f18400;
+	color: #fff;
+}
